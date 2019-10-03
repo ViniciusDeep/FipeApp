@@ -18,5 +18,5 @@
 - Adicionar Navigation
 - Adioncar Botão de favoritar no lado direito e superior da Navigation
 - Fazer regra de negócio para adicionar um carro como favorito
- - Os carros favoritos do cara também será mostrado em uma table view
+- Os carros favoritos da pessoa também será mostrado em uma table view
 - Persistir os favoritos no CoreData
