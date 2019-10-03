@@ -21,6 +21,8 @@
 		606F1057233E577A00E734A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F1056233E577A00E734A6 /* HomeView.swift */; };
 		606F105F233E582A00E734A6 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F105E233E582A00E734A6 /* UIView+Constraints.swift */; };
 		606F1063233E590300E734A6 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F1062233E590300E734A6 /* ViewCodable.swift */; };
+		DC985F8A234694730021B68B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC985F89234694730021B68B /* ListViewController.swift */; };
+		DC985F8C234694D70021B68B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC985F8B234694D70021B68B /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		606F1056233E577A00E734A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		606F105E233E582A00E734A6 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		606F1062233E590300E734A6 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		DC985F89234694730021B68B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DC985F8B234694D70021B68B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				606F105B233E57BA00E734A6 /* Extension */,
 				606F1059233E579000E734A6 /* ViewControllers */,
 				606F1056233E577A00E734A6 /* HomeView.swift */,
+				DC985F8B234694D70021B68B /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				606F1054233E526300E734A6 /* HomeViewController.swift */,
+				DC985F89234694730021B68B /* ListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 				606F1057233E577A00E734A6 /* HomeView.swift in Sources */,
 				606F1055233E526300E734A6 /* HomeViewController.swift in Sources */,
 				602FCF0E233E6692009DB67B /* URLSessionProvider.swift in Sources */,
+				DC985F8C234694D70021B68B /* ListView.swift in Sources */,
 				602FCF10233E66CA009DB67B /* Enums.swift in Sources */,
+				DC985F8A234694730021B68B /* ListViewController.swift in Sources */,
 				606F105F233E582A00E734A6 /* UIView+Constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
