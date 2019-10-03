@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         
         let homeController = HomeViewController()
-        let navigationController = UINavigationController(rootViewController: homeController)
+        let navigationController = UINavigationController(rootViewController: ListViewController())
 //        navigationController.navigationBar.setStyle()
         
         self.window?.rootViewController = navigationController
