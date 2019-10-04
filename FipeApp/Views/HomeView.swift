@@ -10,10 +10,9 @@ import UIKit
 
 class HomeView: UIView {
     
-//    private lazy var 
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.backgroundColor = .red
     }
     
     required init?(coder: NSCoder) {
@@ -22,18 +21,16 @@ class HomeView: UIView {
     
 }
 
-//extension HomeView: ViewCodable {
-//    func buildViewHierarchy() {
-//        <#code#>
-//    }
-//    
-//    func setupConstraints() {
-//        <#code#>
-//    }
-//    
-//    func setupAdditionalConfiguration() {
-//        <#code#>
-//    }
-//    
-//    
-//}
+extension HomeView: ViewCodable {
+    func buildViewHierarchy() {
+        
+    }
+    
+    func setupConstraints() {
+        
+    }
+    
+    func setupAdditionalConfiguration() {
+        
+    }
+}

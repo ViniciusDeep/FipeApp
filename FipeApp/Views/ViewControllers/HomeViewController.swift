@@ -8,26 +8,11 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-    
-//    let marcas = [Marca]
+class HomeViewController: UIViewController, ConfigurableController {
+    var customView: UIView? = HomeView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .yellow
-        
-        let service = AppService.getMarcas
-        NetworkManager.getAll(service: service) { (marcas: [Marca]?, error) in
-            if error == nil {
-                guard let newMarcas = marcas else { return }
-                newMarcas.forEach { (marca) in
-                    print(marca.fipeName)
-                }
-            }
-        }
+        setupView()
     }
-    
-
-
 }

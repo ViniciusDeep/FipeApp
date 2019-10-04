@@ -18,11 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.makeKeyAndVisible()
         
-        let homeController = HomeViewController()
-        let navigationController = UINavigationController(rootViewController: ListViewController())
-//        navigationController.navigationBar.setStyle()
-        
-        self.window?.rootViewController = navigationController
+        self.window?.rootViewController = CustomTabBarController()
         return true
     }
 
